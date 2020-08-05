@@ -1,0 +1,33 @@
+{
+  "name": "lamanlomba",
+  "version": "1.0.0",
+  "description": "Website platforms contains events information",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahaamesha/lamanLomba.git"
+  },
+  "keywords": [
+    "lomba",
+    "competition",
+    "contest",
+    "website",
+    "scholarship",
+    "information",
+    "events"
+  ],
+  "author": "mahaamesha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahaamesha/lamanLomba/issues"
+  },
+  "homepage": "https://github.com/mahaamesha/lamanLomba#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
