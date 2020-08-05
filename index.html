@@ -4,14 +4,69 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Laman Lomba</title>
-    <meta name="viewport" content="width=device-width", initial-scale="1", shrink-to-fit="no">
-    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+    <meta name="viewport" content="width=device-width" initial-scale="1" shrink-to-fit="no">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
     
 </head>
 <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Laman Lomba</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="Navbar" aria-expanded="false" aria-label="Togle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">
+                            <span class="fa fa-home"> Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="event.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="fa fa-trophy"> Events</span>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Main Event</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Competition</a>
+                                <a class="dropdown-item" href="#">Scholarship</a>
+                                <a class="dropdown-item" href="#">Training</a>
+                                <a class="dropdown-item" href="#">Job</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Other</a>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="activity.html">
+                            <span class="fa fa-calendar"> Activity</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">
+                            <span class="fa fa-address-card"> About Us</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <a id="loginModalBtn">
+                    <span class="fa fa-login"></span>
+                <button type="button" class="btn btn-primary"> Login</button>
+                </a>
+
+            </div>
+        </div>
+    </nav>
+
     <header>HEADER</header>
-    <p>Hello World</p>
+    
+    <div class="container">
+        <p>Cek</p>
+    </div>
+    
     <footer>FOOTER</footer>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
