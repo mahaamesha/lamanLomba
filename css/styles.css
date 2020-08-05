@@ -1,0 +1,29 @@
+.navbar-dark {
+  background-color: #343a40; }
+
+.jumbotron {
+  margin: 0px auto;
+  background-color: #007BFF;
+  color: #fff; }
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 30px 0px 30px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+footer {
+  margin: 0px auto;
+  padding: 30px 0px 30px 0px;
+  background-color: #343a40;
+  color: #fff; }
+  footer .copyright {
+    font-size: 90%;
+    margin: 20px 0px 0px 0px; }
+    footer .copyright .brandCopyright {
+      font-weight: bold;
+      color: #007BFF; }

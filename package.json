@@ -31,13 +31,15 @@
   },
   "homepage": "https://github.com/mahaamesha/lamanLomba#readme",
   "devDependencies": {
-    "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0",
     "lite-server": "^2.5.4",
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "onchange": "^7.0.2",
+    "parallelshell": "^3.0.2"
   },
   "dependencies": {
     "bootstrap": "^4.5.1",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
