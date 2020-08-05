@@ -12,11 +12,11 @@ $colorPureWhite: #fff;
 }
 
 .jumbotron{
-    padding: 50px 20px 20px 20px;
+    padding: 60px 20px 20px 20px;
     margin: 0px auto;
     background-color: $colorBlue;
     color: $colorPureWhite;
-    min-height: 500px;
+    min-height: 400px;
     .carousel{
         background-color: $colorGray;
     }
@@ -52,7 +52,7 @@ body{
 
 footer{
     margin: 0px auto;
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0px 20px 0px;
     background-color: $colorDark;
     color: $colorPureWhite;
     #logoFooter{
@@ -63,9 +63,12 @@ footer{
         min-width: 50px;
         min-height: 50px;
     }
+    .btn-social-icon{
+        color: $colorPureWhite;
+    }
     .copyright{
         font-size: 90%;
-        margin: 20px 0px 0px 0px;
+        margin: 10px 0px 0px 0px;
         .brandCopyright{
             font-weight: bold;
             color: $colorBlue;
