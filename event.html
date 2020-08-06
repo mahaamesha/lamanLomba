@@ -63,7 +63,7 @@
         </div>
     </nav>
 
-    <header class="jumbotron">
+    <header class="jumbotron mb-3">
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-8">
@@ -77,14 +77,18 @@
     </header>
 
     <div class="container containerEvent">
-        <div class="row row-content">
-            <!-- Left Nav -->
-            <div class="col-10 offset-2">
+        <div class="row row-search">
+            <!-- Propose Event Btn-->
+            <div class="col-4 col-sm-2 align-self-center">
+                <button class="btn btn-success btn-lg">Propose</button>
+            </div>
+            <!-- Search Event -->
+            <div class="col-8 col-sm-6 align-self-center">
                 <!-- Search -->
                 <div class="form-row">
-                    <div class="form-group col-12">
+                    <div class="form-group col-12 mb-1 mt-1">
                         <div class="input-group">
-                            <input class="form-control" id="indexSearch" type="text" placeholder="Search your events..." role="searchbox" autocomplete="off" spellcheck="false" aria-autocomplete="list" aria-label="Search your event" aria-describedby="Search your event" dir="auto">
+                            <input class="form-control" id="eventSearch" type="text" placeholder="Search your events..." role="searchbox" autocomplete="off" spellcheck="false" aria-autocomplete="list" aria-label="Search your event" aria-describedby="Search your event" dir="auto">
                             <div class="input-group-append">
                                 <button class="btn btn-primary" type="button">
                                     <span class="fa fa-search"></span>
@@ -94,15 +98,18 @@
                     </div>
                 </div>
                 <!-- Filter -->
-                <div class="form-row">
-                    <div class="form-group col-12">
+                <div class="form-row d-none d-sm-block">
+                    <div class="form-group col-12 mb-0">
                         <button class="btn btn-light btn-sm" role="button">
                             <span class="fa fa-filter"></span> Filter
                         </button>
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div class="row row-content">    
+            <!-- Left Nav -->
             <div class="col-12 col-md-2 p-1">
                 <div class="card" id="leftNavEvent">
                     <div class="card-header text-center"><h6>Category</h6></div>
@@ -145,14 +152,12 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
-
             <!-- Column for Card Event-->
             <div class="col-12 col-sm-10">
                 <div class="row row-cols-2">
                     <div class="col-12 col-sm-6 wrapCard">
-                        <div class="card">
+                        <div class="card text-center">
                             <img class="card-img-top" src="..." alt="...">
                             <div class="card-body">
                                 <h6 class="card-title">TITLE EVENT
@@ -163,14 +168,13 @@
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit dolorem dolores minima itaque velit voluptatem sint eius, laborum iste saepe consequatur officiis dolor nesciunt aliquid, voluptas dignissimos maxime? Similique!</p>
                                 <button class="btn btn-primary btn-sm" role="button">Check</button>
                             </div>
-                            <div class="card-footer text-center">
+                            <div class="card-footer text-center text-muted">
                                 <p class="mb-0">3 days left</p>
                             </div>
                         </div>
                     </div>
-                    
                     <div class="col-12 col-sm-6 wrapCard">
-                        <div class="card">
+                        <div class="card text-center">
                             <img class="card-img-top" src="..." alt="...">
                             <div class="card-body">
                                 <h6 class="card-title">TITLE EVENT
@@ -180,14 +184,13 @@
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit dolorem dolores minima itaque velit voluptatem sint eius, laborum iste saepe consequatur officiis dolor nesciunt aliquid, voluptas dignissimos maxime? Similique!</p>
                                 <button class="btn btn-primary btn-sm" role="button">Check</button>
                             </div>
-                            <div class="card-footer text-center">
+                            <div class="card-footer text-center text-muted">
                                 <p class="mb-0">3 days left</p>
                             </div>
                         </div>
                     </div>
-
                     <div class="col-12 col-sm-6 wrapCard">
-                        <div class="card">
+                        <div class="card text-center">
                             <img class="card-img-top" src="..." alt="...">
                             <div class="card-body">
                                 <h6 class="card-title">TITLE EVENT</h6>
@@ -195,15 +198,13 @@
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit dolorem dolores minima itaque velit voluptatem sint eius, laborum iste saepe consequatur officiis dolor nesciunt aliquid, voluptas dignissimos maxime? Similique!</p>
                                 <button class="btn btn-primary btn-sm" role="button">Check</button>
                             </div>
-                            <div class="card-footer text-center">
+                            <div class="card-footer text-center text-muted">
                                 <p class="mb-0">3 days left</p>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
-            
         </div>
     </div>
 
