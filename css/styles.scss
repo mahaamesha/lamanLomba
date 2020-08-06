@@ -61,6 +61,10 @@ body{
     }
     .wrapCard{
         padding: 0px 4px 0px 4px;
+        img{
+            min-width: 250px;
+            min-height: 250px;
+        }
     }
     .card{
         margin-bottom: 10px;
