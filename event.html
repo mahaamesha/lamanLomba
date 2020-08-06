@@ -78,11 +78,36 @@
 
     <div class="container containerEvent">
         <div class="row row-content">
+            <!-- Left Nav -->
+            <div class="col-10 offset-2">
+                <!-- Search -->
+                <div class="form-row">
+                    <div class="form-group col-12">
+                        <div class="input-group">
+                            <input class="form-control" id="indexSearch" type="text" placeholder="Search your events..." role="searchbox" autocomplete="off" spellcheck="false" aria-autocomplete="list" aria-label="Search your event" aria-describedby="Search your event" dir="auto">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button">
+                                    <span class="fa fa-search"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Filter -->
+                <div class="form-row">
+                    <div class="form-group col-12">
+                        <button class="btn btn-light btn-sm" role="button">
+                            <span class="fa fa-filter"></span> Filter
+                        </button>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-12 col-md-2 p-1">
                 <div class="card" id="leftNavEvent">
                     <div class="card-header text-center"><h6>Category</h6></div>
                     <div class="card-body">
-                        <p>Competition</p>
+                        <p class="mt-1">Competition</p>
                         <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Poster</a>
@@ -100,22 +125,22 @@
                                 <a class="nav-link" href="#">Programming</a>
                             </li>
                         </ul>
-                        <p>Scholarship</p>
+                        <p class="mt-1">Scholarship</p>
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Poster</a>
+                                <a class="nav-link" href="#">Amerika</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Papers</a>
+                                <a class="nav-link" href="#">Asia</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Photography</a>
+                                <a class="nav-link" href="#">Australia</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Web Development</a>
+                                <a class="nav-link" href="#">Africa</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Programming</a>
+                                <a class="nav-link" href="#">Europa</a>
                             </li>
                         </ul>
                     </div>
@@ -123,54 +148,62 @@
 
             </div>
 
-            <div class="col-12 col-sm-5 p-1">
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="...">
-                    <div class="card-body">
-                        <h6 class="card-title">TITLE EVENT
-                            <span class="badge badge-primary">1,124</span>
-                            <span class="sr-only">Participants</span>
-                        </h6>
-                        <p class="text-muted">Date: August, 10th 2020</p>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit dolorem dolores minima itaque velit voluptatem sint eius, laborum iste saepe consequatur officiis dolor nesciunt aliquid, voluptas dignissimos maxime? Similique!</p>
-                        <button class="btn btn-primary btn-sm" role="button">Check</button>
+            <!-- Column for Card Event-->
+            <div class="col-12 col-sm-10">
+                <div class="row row-cols-2">
+                    <div class="col-12 col-sm-6 wrapCard">
+                        <div class="card">
+                            <img class="card-img-top" src="..." alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">TITLE EVENT
+                                    <span class="badge badge-primary">1,124</span>
+                                    <span class="sr-only">Participants</span>
+                                </h6>
+                                <p class="text-muted">Date: August, 10th 2020</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit dolorem dolores minima itaque velit voluptatem sint eius, laborum iste saepe consequatur officiis dolor nesciunt aliquid, voluptas dignissimos maxime? Similique!</p>
+                                <button class="btn btn-primary btn-sm" role="button">Check</button>
+                            </div>
+                            <div class="card-footer text-center">
+                                <p class="mb-0">3 days left</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-footer text-center">
-                        <p class="mb-0">3 days left</p>
+                    
+                    <div class="col-12 col-sm-6 wrapCard">
+                        <div class="card">
+                            <img class="card-img-top" src="..." alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">TITLE EVENT
+                                    <span class="badge badge-danger">NEW</span>
+                                </h6>
+                                <p class="text-muted">Date: August, 10th 2020</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit dolorem dolores minima itaque velit voluptatem sint eius, laborum iste saepe consequatur officiis dolor nesciunt aliquid, voluptas dignissimos maxime? Similique!</p>
+                                <button class="btn btn-primary btn-sm" role="button">Check</button>
+                            </div>
+                            <div class="card-footer text-center">
+                                <p class="mb-0">3 days left</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-5 p-1">
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="...">
-                    <div class="card-body">
-                        <h6 class="card-title">TITLE EVENT
-                            <span class="badge badge-danger">NEW</span>
-                        </h6>
-                        <p class="text-muted">Date: August, 10th 2020</p>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit dolorem dolores minima itaque velit voluptatem sint eius, laborum iste saepe consequatur officiis dolor nesciunt aliquid, voluptas dignissimos maxime? Similique!</p>
-                        <button class="btn btn-primary btn-sm" role="button">Check</button>
-                    </div>
-                    <div class="card-footer text-center">
-                        <p class="mb-0">3 days left</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-5 p-1">
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="...">
-                    <div class="card-body">
-                        <h6 class="card-title">TITLE EVENT</h6>
-                        <p class="text-muted">Date: August, 10th 2020</p>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit dolorem dolores minima itaque velit voluptatem sint eius, laborum iste saepe consequatur officiis dolor nesciunt aliquid, voluptas dignissimos maxime? Similique!</p>
-                        <button class="btn btn-primary btn-sm" role="button">Check</button>
-                    </div>
-                    <div class="card-footer text-center">
-                        <p class="mb-0">3 days left</p>
-                    </div>
-                </div>
-            </div>
 
+                    <div class="col-12 col-sm-6 wrapCard">
+                        <div class="card">
+                            <img class="card-img-top" src="..." alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">TITLE EVENT</h6>
+                                <p class="text-muted">Date: August, 10th 2020</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit dolorem dolores minima itaque velit voluptatem sint eius, laborum iste saepe consequatur officiis dolor nesciunt aliquid, voluptas dignissimos maxime? Similique!</p>
+                                <button class="btn btn-primary btn-sm" role="button">Check</button>
+                            </div>
+                            <div class="card-footer text-center">
+                                <p class="mb-0">3 days left</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
         </div>
     </div>
 

@@ -49,9 +49,15 @@ body{
             margin: 0;
             font-size: 85%;
         }
+        .nav-link{
+            padding: 4px 8px;
+        }
     }
-
+    .wrapCard{
+        padding: 0px 4px 0px 4px;
+    }
     .card{
+        margin-bottom: 10px;
         .card-body, .card-header, .card-footer{
             padding: 10px;
         }

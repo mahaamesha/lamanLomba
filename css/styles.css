@@ -34,10 +34,16 @@ body {
     .containerEvent #leftNavEvent p, .containerEvent #leftNavEvent a {
       margin: 0;
       font-size: 85%; }
-  .containerEvent .card .card-body, .containerEvent .card .card-header, .containerEvent .card .card-footer {
-    padding: 10px; }
-  .containerEvent .card .card-title {
-    margin-bottom: 0px; }
+    .containerEvent #leftNavEvent .nav-link {
+      padding: 4px 8px; }
+  .containerEvent .wrapCard {
+    padding: 0px 4px 0px 4px; }
+  .containerEvent .card {
+    margin-bottom: 10px; }
+    .containerEvent .card .card-body, .containerEvent .card .card-header, .containerEvent .card .card-footer {
+      padding: 10px; }
+    .containerEvent .card .card-title {
+      margin-bottom: 0px; }
 
 .mainSearch {
   padding: 0px 0px 50px 0px; }
