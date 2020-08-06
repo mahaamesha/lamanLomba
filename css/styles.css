@@ -4,7 +4,7 @@
     color: #fff; }
 
 .jumbotron {
-  padding: 60px 20px 20px 20px;
+  padding: 50px 20px 20px 20px;
   margin: 0px auto;
   background-color: #007BFF;
   color: #fff;
@@ -13,6 +13,8 @@
     background-color: #cecece; }
   .jumbotron .carousel-item {
     min-height: 300px; }
+  .jumbotron .badge-light {
+    color: #343a40; }
 
 body {
   padding: 50px 0px 0px 0px;
@@ -23,6 +25,19 @@ body {
   padding: 30px 0px 30px 0px;
   border-bottom: 1px ridge;
   min-height: 400px; }
+
+.containerEvent {
+  padding: 0px 10px 0px 10px;
+  margin: 0 auto; }
+  .containerEvent #leftNavEvent {
+    position: sticky; }
+    .containerEvent #leftNavEvent p, .containerEvent #leftNavEvent a {
+      margin: 0;
+      font-size: 85%; }
+  .containerEvent .card .card-body, .containerEvent .card .card-header, .containerEvent .card .card-footer {
+    padding: 10px; }
+  .containerEvent .card .card-title {
+    margin-bottom: 0px; }
 
 .mainSearch {
   padding: 0px 0px 50px 0px; }
